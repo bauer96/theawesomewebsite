@@ -54,6 +54,7 @@ header {
 }
 .header-info-text {
     font-size: 18px;
+    margin-right: 175px;
     color:#E5E7EB;
 }
 
@@ -61,4 +62,32 @@ header {
     flex-direction: column;
     text-align: left;
     margin-left: 110px;
+}
+
+#hero-image {
+  width: 400px;
+  height: auto;
+}
+
+  .hero-btn {
+    margin-top: 10px;
+    margin-left: -5px;
+    background-color: #3882f6;
+    width: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+
+.content-header {
+    text-align: center;
+}
+
+#content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
